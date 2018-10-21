@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FOR SALE!!!!!!!!!!!</title>
+
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+    <script src="https://use.typekit.net/dcf1ame.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<style>
+body { margin:0; }
+
+    *h1{font-family: "source-han-serif-korean",serif;}
+    h1{font-family: "garamond", serif;}
+    h1{font-size: 1.2em; line-height:1.7; font-weight: 800; color: blue;}
+
+#basic {background: yellow; position: absolute; width: 500px; height: 600px; left: 100px; top: 180px;}
+
+#black {width: 840px; height: 1300px; position: absolute; left: 680px; top:0px; background: black;}
+
+#shoes {position: absolute; top: 0px; left: 0px; width:480px; height: 150px; background: black;}
+
+#date {position: absolute; left: 850px; top: 50px; width: 380px; }
+
+#victory {position: absolute; left: 220px; top: 100px; width: 180px; height: 100px;}
+
+#logo {position: absolute; left: 140px; top: 250px; width: 510px; height: 320px;background: green; border-radius: 75%; animation: mymove 4s infinite;}
+
+#dollar3 {position: absolute; left: 1100px; top: 40px; width: 450px; }
+
+#me {position: absolute; left: 0px; top: 670px; width: 180px; height: 420px; background: gray;}
+
+#stuff0{position: absolute; left: 680px; top:0px; width: 340px; height: 1000px; background: black;}
+
+#stufftwo {position: absolute; left: 1050px; top:480px; width: 340px; height: 680px; background: black;}
+
+#stufftwo2 {float:left; width: 340px; }
+#stufftwo2:hover{opacity: 0.8;}
+
+#stuff {width: 340px; position: relative; float: left; margin-bottom: 30px;}
+#stuff:hover{opacity: 0.8;}
+
+#stuff1 {width: 340px; position: relative; float: left;margin-bottom: 30px;}
+#stuff1:hover{opacity: 0.8;}
+
+#graph {width: 250px; height: 1000px; position: absolute; left: 100px; top:0px;}
+
+#white { position: absolute; left: 1050px; top:0px; width: 340px; height: 500px; background:black;}
+
+#nothing{width: 400px; position: absolute; left: 850px; top: 800px;}
+
+#completed {width: 500px; left: 100px; top: 580px; position: absolute; animation: completed 5s infinite;}
+
+#lazer {width: 700px; height: 100px; position: absolute; left: 140px; top: 800px;}
+
+#name2 {width: 30px; height: 100px; position: absolute; background: white; opacity: 0; animation: slide_ 1.2s forwards}
+
+.hovereffect .image {display: opacity;transform: scale(1.2); transition: 0.5s ease;}
+.hovereffect:hover>.image {transform: scale(1); filter: blur(2px); opacity:0.4;}
+.hovereffect .txt {color: white; font-size:1.2em; top: 50%; left: 50% text-align:center; line-height: 1.7; position: absolute; top: 20px; left: 20px; height: 100%; width: 100%;opacity: 0; overflow: hidden;transform: scale(2); transition: 0.3s ease; }
+.hovereffect:hover .txt{background-color: rgba(195,193,149,0); transform: scale(1); opacity:1;}
+.hovereffect .txt h3{font-size:1.3em; margin: 120px 0 10px 0; text-align: center; font-weight: 900;}
+.hovereffect .txt h4{font-size:1.0em; margin: 30px 0 10px 0; text-align: center; font-weight: 700;}
+
+
+
+p.typing-txt{display: none; position: absolute;}
+
+    .typing {  
+      position: absolute;
+      display: block; 
+      animation: cursor 7s ease-in-out forwards;
+    } 
+    @keyframes cursor{ 
+      0%{border-right: 1px solid #fff} 
+      50%{border-right: 1px solid #000} 
+      100%{border-right: 1px solid #fff} 
+    }
+
+    @keyframes mymove {
+            from {}
+            to {transform: rotate3d(0.1,18,2,360deg);}
+            }
+
+    @keyframes completed{ 
+      0%{opacity: 0;}
+      20%{opacity: 0;} 
+      50%{opacity:1;} 
+      80%{opacity: 0;}
+      100%{opacity: 0;} 
+    }
+    
+/*<div id="graph"><img src="./img/graph.png" style="height: 1000px; width: 350px;"></div>
+</style>
+</head>
+
+<body>
+	
+	<div id="white"></div>
+	<div id="basic"></div>
+	<div id="graph"><img src="./img/graph.png" style="height: 1000px; width: 380px;"></div>
+	<div><img src="./img/shoes11.gif" id="shoes"></div>
+	<div id="stuff0">
+		<div class="hovereffect"><img src="./img/mic.gif" id="stuff1"><div class="txt">It's not just Mike. It'll put words to you as you can see. How much do you expect?</div></div>
+		<div class="hovereffect"><div class="txt" style="top: 300px;">It's not just Mike. It'll put words to you as you can see. How much do you expect?</div><img src="./img/hoodie.gif" id="stuff" style="cursor:pointer;" 
+     onMouseOver="this.src='./img/hoody.gif'"
+     onMouseOut="this.src='./img/hoodie.gif'"></div>
+		<div><img src="./img/shoes2.png" id="stuff" 
+			style="cursor:pointer;" 
+     onMouseOver="this.src='./img/shoes11.gif'"
+     onMouseOut="this.src='./img/shoes2.png'"></div>
+		<div><img src="./img/shoes.gif" id="stuff"></div>
+	</div>
+	<div id="stufftwo">
+		<div><img src="./img/dumb1.png" id="stufftwo2" style="height:230px; cursor:pointer;"
+     onMouseOver="this.src='./img/dumb.gif'"
+     onMouseOut="this.src='./img/dumb1.png'"></div>
+		<div><img src="./img/wuwek.gif" id="stufftwo2"></div>
+		<div id="stuff1"></div>
+	</div>
+	<div><img src="./img/date.png" id="date" style="transform: rotate(90deg);"></div>
+	<div><img src="./img/date.png" id="date" style="left: 0px; top: 180px; width: 70px;"></div>
+	<div><img src="./img/date.png" id="date" style="left: 0px; top: 390px; width: 70px;"></div>
+	<div><img src="./img/date.png" id="date" style="left: 0px; top: 600px; width: 70px;"></div>
+
+	<div><img src="./img/sale.png" id="logo"></div>
+
+	<div><img src="./img/victory.png" id="victory" style="cursor:pointer;" 
+     onMouseOver="this.src='./img/victory2.png'"
+     onMouseOut="this.src='./img/victory.png'"></div>
+	<div><img src="./img/victory.png" id="victory" style="top: 90px; cursor:pointer;" 
+     onMouseOver="this.src='./img/victory2.png'"
+     onMouseOut="this.src='./img/victory.png'"></div>
+	<div><img src="./img/victory.png" id="victory" style="top: 580px;cursor:pointer;" 
+     onMouseOver="this.src='./img/victory2.png'"
+     onMouseOut="this.src='./img/victory.png'"></div>
+	<div><img src="./img/victory.png" id="victory" style="top: 990px;cursor:pointer;" 
+     onMouseOver="this.src='./img/victory2.png'"
+     onMouseOut="this.src='./img/victory.png'"></div>
+	<div><img src="./img/dollar3.gif" id="dollar3" style="transform: rotate(-90deg);"></div>
+
+	<div id="me"></div>
+	<div id="me" style="left: 1360px; "></div>
+
+	<div id="name2" style="left:930px; top: 120px;"></div>
+
+    <p class="typing-txt" style="height: 400px;">이 곳은 각종 소품을 파는 복합아트쇼핑센터입니다. 먹을 수 있는 아령 / 유령이 되는 후드 / 빨랫줄에서 생산되는 신발 / 알아서 노래를 불러주는 마이크를 다른 곳에서 보신 적 있습니까? 아마 보신 적 있으시다면 그건 꿈에서나 봤겠죠. 하지만 여기에선 그런 꿈같은, 거짓말 같고 허세같고 허풍같고 허영 같은 것들을 볼 수 있습니다. 이 웹사이트가 허영이 아니냐고요? 네, 아닙니다. 그러니 맘껏 구경하세요. 세상에 단 한가지 뿐이어서 이미 팔린 'sold-out' 제품들도 있고 재생산되어 재입고가 되기만을 기다리는 'waiting' 제품들도 있습니다. 이 밑에 있는 '마미손의 손' 제품은 3$로, 많은 분들에게 짭이 아니냐는 이야기가 나오고 있습니다. 당연히 가짜입니다. 예. 다시 한 번 알려드립니다! This is a composite art shopping center that sells various items. Have you ever seen any edible dumbbells or a ghostly hood or shoes made by the clothesline and your own microphone singing your own songs? If you've ever seen it, you've only seen it in your dreams. But here you can see things like that, like that dream, like a lie, a bluff, a bluff. Isn't this website vanity? No, it's not. So watch it as you please. There's one thing in the world that's already sold out, and there's another that's waiting to be recycled and re-published. Down here, "the Mommyson hand" is for only costs $3 and many people are saying it's salty. Of course it's a fake. Hmmmmmmm...</p> 
+	  <p class="typing" style="left:1200px; top: 40px; color: blue; font-weight: 400;"></p>
+
+	  <script> 
+	    var typingBool = false; 
+	    var typingIdx=0; 
+	    var typingTxt = $(".typing-txt").text(); 
+	    typingTxt=typingTxt.split("");  
+	    if(typingBool==false){  
+	       typingBool=true; 
+	       
+	       var tyInt = setInterval(typing,40); 
+	     } 
+	     
+	     function typing(){ 
+	       if(typingIdx<typingTxt.length){ 
+	         $(".typing").append(typingTxt[typingIdx]); 
+	         typingIdx++; 
+	       } else{ 
+	         clearInterval(tyInt); 
+	       } 
+	     }   
+	  </script> 
+
+	  <div><img src="./img/completed.png" id="completed" style="transform: rotate(25deg);"></div>
+
+	  <div><img src="./img/lazer.gif" id="lazer"></div>
+	  <div><img src="./img/lazer.gif" id="lazer" style="transform: rotateY(180deg);left: 680px;"></div>
+	  <div><img src="./img/nothing.gif" id="nothing"></div>
+</script>
+</body>
+</html>
